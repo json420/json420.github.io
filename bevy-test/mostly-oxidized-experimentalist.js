@@ -2488,7 +2488,7 @@ async function __wbg_init_once(module_or_path) {
     }
 
     if (module_or_path === undefined) {
-        module_or_path = new URL('mostly-oxidized-experimentalist.wasm', import.meta.url);
+        module_or_path = new URL('mostly-oxidized-experimentalist_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
